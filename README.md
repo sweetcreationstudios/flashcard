@@ -1,12 +1,29 @@
-# React + Vite
+# Flashcard App 🧠✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and responsive flashcard application built with **React** and **Tailwind CSS**. It allows users to flip between questions and answers to help with studying or memorization.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Flip animation between question and answer
+- Clean UI using Tailwind CSS
+- Mobile-friendly layout
+- Easy to extend with more flashcards or subjects
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) – for building the UI
+- [Tailwind CSS](https://tailwindcss.com/) – for styling
+- [Vite](https://vitejs.dev/) – for fast development environment
+
+## 📁 Getting Started
+
+To run locally:
+
+```bash
+git clone https://github.com/sweetcreationstudios/flashcard.git
+cd flashcard
+npm install
+npm run dev
+
+👩‍🎓 Author
+Made with 💜 by QueenBoss Marilynn
