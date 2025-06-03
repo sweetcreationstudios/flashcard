@@ -72,6 +72,7 @@ button:focus-visible {
   }
 }
 
+/* Custom styles for flip effect */
 .perspective {
   perspective: 1000px;
 }
@@ -87,3 +88,4 @@ button:focus-visible {
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+
