@@ -26,4 +26,4 @@ npm install
 npm run dev
 
 👩‍🎓 Author
-Made with 💜 by QueenBoss Marilynn
+Made with 💜 by Marilynn M. Ramirez AKA QueenBoss Marilynn 
