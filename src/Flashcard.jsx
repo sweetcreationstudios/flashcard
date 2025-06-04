@@ -5,7 +5,7 @@ export default function Flashcard({ flashcard }) {
 
   return (
     <div
-      className="w-80 h-48 perspective cursor-pointer my-6 mx-auto"
+      className="w-80 h-48 perspective cursor-pointer my-6 mx-auto relative"
       onClick={() => setFlipped(!flipped)}
     >
       <div
@@ -14,12 +14,12 @@ export default function Flashcard({ flashcard }) {
         }`}
       >
         {/* Front */}
-        <div className="absolute w-full h-full backface-hidden bg-white text-black border border-gray-300 rounded-xl shadow-lg flex items-center justify-center p-4 text-center">
+        <div className="absolute w-full h-full backface-hidden bg-white text-black border border-gray-300 rounded-xl shadow-lg flex items-center justify-center p-4 text-center z-10">
           <p>{flashcard.question}</p>
         </div>
 
         {/* Back */}
-        <div className="absolute w-full h-full backface-hidden bg-indigo-100 text-black border border-gray-300 rounded-xl shadow-lg flex items-center justify-center p-4 text-center rotate-y-180">
+        <div className="absolute w-full h-full backface-hidden bg-indigo-100 text-black border border-gray-300 rounded-xl shadow-lg flex items-center justify-center p-4 text-center rotate-y-1 z-20">
           <p>{flashcard.answer}</p>
         </div>
       </div>
