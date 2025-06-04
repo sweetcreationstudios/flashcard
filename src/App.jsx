@@ -22,11 +22,18 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-4">
-      <h1 className="text-4xl font-bold text-red-600 mb-4">Tailwind Works!</h1>
+      
+      <h1 className="text-red-600">Tailwind is working</h1>     
+      
       <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Flashcard App</h2>
-      {flashcards.map((card) => (
-        <Flashcard key={card.id} flashcard={card} />
-      ))}
+      
+      <div className="space-y-6">
+
+      
+      {flashcards.map(card => (
+    <Flashcard key={card.id} flashcard={card} />
+  ))}
+    </div>
     </div>
   );
 }
